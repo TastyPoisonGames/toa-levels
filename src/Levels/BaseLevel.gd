@@ -16,7 +16,8 @@ func set_level_coordinates(_coords: Vector2):
 func take_out_player():
     var y_sort = get_node('YSort')
     var player = y_sort.get_node('Player')
-    y_sort.remove_child(player)
+    if player:
+        y_sort.remove_child(player)
     return player
     
 func add_player(player, direction_came_from: String):
