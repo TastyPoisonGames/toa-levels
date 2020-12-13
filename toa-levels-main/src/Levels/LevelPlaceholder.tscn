@@ -1,0 +1,71 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://src/Levels/LevelPlaceholder.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 576, 8 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 288, 8 )
+
+[node name="BaseLevel" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1280.0
+margin_bottom = 720.0
+color = Color( 0.176471, 0.211765, 0.160784, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_right = 640.0
+margin_bottom = 360.0
+rect_scale = Vector2( 2, 2 )
+text = "PLACEHOLDER"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MoveUp" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MoveUp"]
+position = Vector2( 640, 8 )
+shape = SubResource( 1 )
+one_way_collision = true
+one_way_collision_margin = 0.0
+
+[node name="MoveDown" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MoveDown"]
+position = Vector2( 640, 712 )
+scale = Vector2( 1, -1 )
+shape = SubResource( 1 )
+one_way_collision = true
+
+[node name="MoveLeft" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MoveLeft"]
+position = Vector2( 8, 352 )
+rotation = 4.71239
+shape = SubResource( 2 )
+one_way_collision = true
+
+[node name="MoveRight" type="Area2D" parent="."]
+position = Vector2( 1264, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MoveRight"]
+position = Vector2( 8, 352 )
+rotation = 1.5708
+shape = SubResource( 2 )
+one_way_collision = true
+
+[node name="YSort" type="YSort" parent="."]
+[connection signal="body_entered" from="MoveUp" to="." method="_on_MoveUp_body_entered"]
+[connection signal="body_entered" from="MoveDown" to="." method="_on_MoveDown_body_entered"]
+[connection signal="body_entered" from="MoveLeft" to="." method="_on_MoveLeft_body_entered"]
+[connection signal="body_entered" from="MoveRight" to="." method="_on_MoveRight_body_entered"]
