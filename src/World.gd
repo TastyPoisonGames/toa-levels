@@ -23,6 +23,14 @@ func _ready():
 	current_level = get_level()
 	tween.connect('tween_completed', self, '_on_level_camera_finished')
 	current_level.enable_move_to_another_level()
+	gen_snapshots()
+	
+func gen_snapshots():
+	yield(get_tree(), "idle_frame")
+	yield(get_tree(), "idle_frame")
+	var image = get_viewport().get_texture().get_data()
+	image.flip_y()
+	image.save_png("res://guide_snapshots/Level_" +  str(current_level_coords.x) + "_" + str(current_level_coords.y) + ".png")
 	
 func _on_go_to_next_level(next_level_coords: Vector2):
 	var player = current_level.take_out_player()
@@ -63,6 +71,7 @@ func _on_level_camera_finished(_object: Object, _key: NodePath):
 	var next_level = get_level()
 	current_level = next_level
 	current_level.enable_move_to_another_level()
+	gen_snapshots()
 
 func get_level_name():
 	return 'Level_' + str(current_level_coords.x) + '_' + str(current_level_coords.y)
