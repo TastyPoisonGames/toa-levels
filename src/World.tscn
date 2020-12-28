@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://src/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://src/Levels/LevelPlaceholder.tscn" type="PackedScene" id=2]
@@ -6,6 +6,8 @@
 [ext_resource path="res://campsite-guide.jpg" type="Texture" id=4]
 [ext_resource path="res://tile list.jpg" type="Texture" id=5]
 [ext_resource path="res://Tiles.png" type="Texture" id=6]
+[ext_resource path="res://src/Levels/Level.tscn" type="PackedScene" id=7]
+
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
@@ -390,7 +392,7 @@ position = Vector2( 0, -2160 )
 [node name="Level_0_-2" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 0, -1440 )
 
-[node name="Level_0_-1" parent="Levels" instance=ExtResource( 2 )]
+[node name="Level_0_-1" parent="Levels" instance=ExtResource( 7 )]
 position = Vector2( 0, -720 )
 
 [node name="Level_0_0" parent="Levels" instance=ExtResource( 2 )]
@@ -1179,6 +1181,7 @@ position = Vector2( 25600, 2880 )
 [node name="Tween" type="Tween" parent="."]
 
 [node name="Tiles" type="Node2D" parent="."]
+visible = false
 position = Vector2( 0, -5040 )
 
 [node name="TileMap" type="TileMap" parent="Tiles"]

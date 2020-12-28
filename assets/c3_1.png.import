@@ -1,34 +1,17 @@
 [remap]
 
-importer="texture"
-type="StreamTexture"
-path="res://.import/c3_1.png-9034fe3af1dfb2c9e56a029b9a00464c.stex"
-metadata={
-"vram_texture": false
-}
-
+importer="texture_atlas"
+type="Texture"
+path="res://.import/c3_1.png-9034fe3af1dfb2c9e56a029b9a00464c.res"
+group_file="res://assets/ForestAssets.png"
+valid=true
 [deps]
 
+
 source_file="res://assets/c3_1.png"
-dest_files=[ "res://.import/c3_1.png-9034fe3af1dfb2c9e56a029b9a00464c.stex" ]
+dest_files=[ "res://.import/c3_1.png-9034fe3af1dfb2c9e56a029b9a00464c.res" ]
 
 [params]
 
-compress/mode=0
-compress/lossy_quality=0.7
-compress/hdr_mode=0
-compress/bptc_ldr=0
-compress/normal_map=0
-flags/repeat=0
-flags/filter=false
-flags/mipmaps=false
-flags/anisotropic=false
-flags/srgb=2
-process/fix_alpha_border=true
-process/premult_alpha=false
-process/HDR_as_SRGB=false
-process/invert_color=false
-stream=false
-size_limit=0
-detect_3d=true
-svg/scale=1.0
+atlas_file="res://assets/ForestAssets.png"
+import_mode=0

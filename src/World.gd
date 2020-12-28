@@ -3,6 +3,8 @@ extends Node2D
 onready var tween = $Tween
 onready var camera = $Camera2D
 
+const LEVEL_TRANSITION_TIME: float = 0.5
+
 var current_level
 var current_level_coords = Vector2.ZERO
 
@@ -51,13 +53,13 @@ func move_camera():
 		'offset',
 		camera.offset,
 		level_position,
-		0.4,
+		LEVEL_TRANSITION_TIME,
 		Tween.TRANS_SINE,
 		Tween.EASE_OUT
 	)
 	tween.start()
 	
-func _on_level_camera_finished(object: Object, key: NodePath):
+func _on_level_camera_finished(_object: Object, _key: NodePath):
 	var next_level = get_level()
 	current_level = next_level
 	current_level.enable_move_to_another_level()

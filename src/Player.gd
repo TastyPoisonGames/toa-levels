@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-export (int) var speed = 500
+export (int) var speed = 300
 
 var is_running: bool = false
 var velocity = Vector2()
@@ -33,6 +33,11 @@ func get_input():
 		velocity.y -= 2
 		is_running = false
 	velocity = velocity.normalized() * speed
+	
+func freeze():
+	set_physics_process(false)
+	yield(get_tree().create_timer(0.5), 'timeout')
+	set_physics_process(true)
 
 func _physics_process(_delta):
 	get_input()
