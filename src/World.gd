@@ -30,7 +30,9 @@ func gen_snapshots():
 	yield(get_tree(), "idle_frame")
 	var image = get_viewport().get_texture().get_data()
 	image.flip_y()
-	image.save_png("res://guide_snapshots/Level_" +  str(current_level_coords.x) + "_" + str(current_level_coords.y) + ".png")
+	var name = "res://guide_snapshots/Level_" +  str(current_level_coords.x) + "_" + str(current_level_coords.y) + ".png"
+	print('created image ' + name)
+	image.save_png(name)
 	
 func _on_go_to_next_level(next_level_coords: Vector2):
 	var player = current_level.take_out_player()

@@ -17,7 +17,7 @@ for (let y = -MAX_X_ROOM; y<= MAX_X_ROOM; y++) {
   for (let x = 0; x <= MAX_Y_ROOM; x++) {
 
     const level = `Level_${x}_${y}`;
-    const fileName = `NewLevels/Level_${level}.tscn`
+    const fileName = `NewLevels/${level}.tscn`
     const xPos = ROOM_SIZE_X * x;
     const yPos = ROOM_SIZE_Y * y;
 
@@ -44,5 +44,5 @@ for (let y = -MAX_X_ROOM; y<= MAX_X_ROOM; y++) {
   }
 }
 
-resource_paths.map(rp => console.log(rp));
-packed_scenes.map(ps => console.log(ps));
+// resource_paths.map(rp => console.log(rp));
+// packed_scenes.map(ps => console.log(ps));

@@ -681,9 +681,6 @@ current = true
 limit_smoothed = true
 
 [node name="Levels" type="Node2D" parent="."]
-__meta__ = {
-"_edit_lock_": false
-}
 
 [node name="Level_0_-7" parent="Levels" instance=ExtResource( 7 )]
 position = Vector2( 0, -5040 )
