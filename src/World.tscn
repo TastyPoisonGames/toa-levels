@@ -8,7 +8,6 @@
 [ext_resource path="res://Tiles.png" type="Texture" id=6]
 [ext_resource path="res://src/Levels/Level.tscn" type="PackedScene" id=7]
 
-
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 
@@ -418,8 +417,6 @@ position = Vector2( 0, 2160 )
 [node name="Level_0_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 0, 2880 )
 
-[node name="1" type="Node" parent="Levels"]
-
 [node name="Level_1_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 1280, -5040 )
 
@@ -455,8 +452,6 @@ position = Vector2( 1280, 2160 )
 
 [node name="Level_1_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 1280, 2880 )
-
-[node name="2" type="Node" parent="Levels"]
 
 [node name="Level_2_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 2560, -5040 )
@@ -494,8 +489,6 @@ position = Vector2( 2560, 2160 )
 [node name="Level_2_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 2560, 2880 )
 
-[node name="3" type="Node" parent="Levels"]
-
 [node name="Level_3_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 3840, -5040 )
 
@@ -531,8 +524,6 @@ position = Vector2( 3840, 2160 )
 
 [node name="Level_3_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 3840, 2880 )
-
-[node name="4" type="Node" parent="Levels"]
 
 [node name="Level_4_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 5120, -5040 )
@@ -570,8 +561,6 @@ position = Vector2( 5120, 2160 )
 [node name="Level_4_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 5120, 2880 )
 
-[node name="5" type="Node" parent="Levels"]
-
 [node name="Level_5_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 6400, -5040 )
 
@@ -607,8 +596,6 @@ position = Vector2( 6400, 2160 )
 
 [node name="Level_5_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 6400, 2880 )
-
-[node name="6" type="Node" parent="Levels"]
 
 [node name="Level_6_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 7680, -5040 )
@@ -646,8 +633,6 @@ position = Vector2( 7680, 2160 )
 [node name="Level_6_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 7680, 2880 )
 
-[node name="7" type="Node" parent="Levels"]
-
 [node name="Level_7_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 8960, -5040 )
 
@@ -683,8 +668,6 @@ position = Vector2( 8960, 2160 )
 
 [node name="Level_7_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 8960, 2880 )
-
-[node name="8" type="Node" parent="Levels"]
 
 [node name="Level_8_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 10240, -5040 )
@@ -722,8 +705,6 @@ position = Vector2( 10240, 2160 )
 [node name="Level_8_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 10240, 2880 )
 
-[node name="9" type="Node" parent="Levels"]
-
 [node name="Level_9_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 11520, -5040 )
 
@@ -759,8 +740,6 @@ position = Vector2( 11520, 2160 )
 
 [node name="Level_9_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 11520, 2880 )
-
-[node name="10" type="Node" parent="Levels"]
 
 [node name="Level_10_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 12800, -5040 )
@@ -798,8 +777,6 @@ position = Vector2( 12800, 2160 )
 [node name="Level_10_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 12800, 2880 )
 
-[node name="11" type="Node" parent="Levels"]
-
 [node name="Level_11_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 14080, -5040 )
 
@@ -835,8 +812,6 @@ position = Vector2( 14080, 2160 )
 
 [node name="Level_11_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 14080, 2880 )
-
-[node name="12" type="Node" parent="Levels"]
 
 [node name="Level_12_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 15360, -5040 )
@@ -874,8 +849,6 @@ position = Vector2( 15360, 2160 )
 [node name="Level_12_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 15360, 2880 )
 
-[node name="13" type="Node" parent="Levels"]
-
 [node name="Level_13_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 16640, -5040 )
 
@@ -911,8 +884,6 @@ position = Vector2( 16640, 2160 )
 
 [node name="Level_13_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 16640, 2880 )
-
-[node name="14" type="Node" parent="Levels"]
 
 [node name="Level_14_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 17920, -5040 )
@@ -950,8 +921,6 @@ position = Vector2( 17920, 2160 )
 [node name="Level_14_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 17920, 2880 )
 
-[node name="15" type="Node" parent="Levels"]
-
 [node name="Level_15_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 19200, -5040 )
 
@@ -987,8 +956,6 @@ position = Vector2( 19200, 2160 )
 
 [node name="Level_15_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 19200, 2880 )
-
-[node name="16" type="Node" parent="Levels"]
 
 [node name="Level_16_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 20480, -5040 )
@@ -1026,8 +993,6 @@ position = Vector2( 20480, 2160 )
 [node name="Level_16_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 20480, 2880 )
 
-[node name="17" type="Node" parent="Levels"]
-
 [node name="Level_17_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 21760, -5040 )
 
@@ -1063,8 +1028,6 @@ position = Vector2( 21760, 2160 )
 
 [node name="Level_17_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 21760, 2880 )
-
-[node name="18" type="Node" parent="Levels"]
 
 [node name="Level_18_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 23040, -5040 )
@@ -1102,8 +1065,6 @@ position = Vector2( 23040, 2160 )
 [node name="Level_18_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 23040, 2880 )
 
-[node name="19" type="Node" parent="Levels"]
-
 [node name="Level_19_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 24320, -5040 )
 
@@ -1139,8 +1100,6 @@ position = Vector2( 24320, 2160 )
 
 [node name="Level_19_4" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 24320, 2880 )
-
-[node name="20" type="Node" parent="Levels"]
 
 [node name="Level_20_-7" parent="Levels" instance=ExtResource( 2 )]
 position = Vector2( 25600, -5040 )
