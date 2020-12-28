@@ -1,0 +1,17 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/c1_2.png-50f533ce9300230ef4be8f5638f6b65d.res"
+group_file="res://assets/ForestAssets.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/c1_2.png"
+dest_files=[ "res://.import/c1_2.png-50f533ce9300230ef4be8f5638f6b65d.res" ]
+
+[params]
+
+atlas_file="res://assets/ForestAssets.png"
+import_mode=0

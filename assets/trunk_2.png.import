@@ -1,0 +1,17 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/trunk_2.png-cc07122f0b37541b8e2d55c1f42ac41d.res"
+group_file="res://assets/ForestAssets.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/trunk_2.png"
+dest_files=[ "res://.import/trunk_2.png-cc07122f0b37541b8e2d55c1f42ac41d.res" ]
+
+[params]
+
+atlas_file="res://assets/ForestAssets.png"
+import_mode=0
