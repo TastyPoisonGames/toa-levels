@@ -16,4 +16,3 @@ func enable_move_to_another_level():
 func on_move_level(direction):
 	var level_coords_to_move_to = coords + direction
 	emit_signal("move_to_next_level", level_coords_to_move_to)
-	print('emitted move to next level: ' + str(level_coords_to_move_to))

@@ -25,13 +25,11 @@ func make_move(direction: Vector2):
 	enable_triggers()
 		
 func disable_triggers(from_name: String = 'self'):
-	print('currently disabled' + from_name)
 	is_sleeping = true
 	for area in move_areas:
 		area.set_deferred('monitoring', false)
 		
 func enable_triggers(from_name: String = 'self'):
-	print('currently enabled ' + from_name)
 	is_sleeping = false
 	for area in move_areas:
 		area.set_deferred('monitoring', true)
