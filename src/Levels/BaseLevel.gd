@@ -10,8 +10,15 @@ var direction_position_map = {
 
 signal move_to_next_level(coords_vector)
 
-func set_level_coordinates(_coords: Vector2):
-	coords = _coords
+func _ready():
+	set_level_coordinates()
+
+func set_level_coordinates():
+	if name == 'Level': return
+	var segments = name.split('_')
+	var x_coord = float(segments[1])
+	var y_coord = float(segments[2])
+	coords = Vector2(x_coord, y_coord)
 	
 func take_out_player():
 	var y_sort = get_node('YSort')

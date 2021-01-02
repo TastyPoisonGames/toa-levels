@@ -19,17 +19,17 @@ func _ready():
 # main function that emits signal to parent
 # with the new room direction to move to
 func make_move(direction: Vector2):
-	disable_triggers()
+	call_deferred('disable_triggers')
 	emit_signal('move_level', direction)
 	yield(get_tree().create_timer(SLEEP_TIME), 'timeout')
 	enable_triggers()
 		
-func disable_triggers(from_name: String = 'self'):
+func disable_triggers():
 	is_sleeping = true
 	for area in move_areas:
 		area.set_deferred('monitoring', false)
 		
-func enable_triggers(from_name: String = 'self'):
+func enable_triggers():
 	is_sleeping = false
 	for area in move_areas:
 		area.set_deferred('monitoring', true)

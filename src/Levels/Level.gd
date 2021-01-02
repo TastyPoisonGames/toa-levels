@@ -8,10 +8,10 @@ func _ready():
 	disable_move_to_another_level()
 	
 func disable_move_to_another_level():
-	move_level_trigger.disable_triggers(self.name)
+	move_level_trigger.disable_triggers()
 	
 func enable_move_to_another_level():
-	move_level_trigger.enable_triggers(self.name)
+	move_level_trigger.enable_triggers()
 	
 func on_move_level(direction):
 	var level_coords_to_move_to = coords + direction

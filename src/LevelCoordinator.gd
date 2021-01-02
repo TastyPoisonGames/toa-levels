@@ -1,5 +1,7 @@
 extends Node2D
 
+signal levels_created
+
 export(NodePath) onready var levels = get_node(levels) as Node2D
 export var initial_level_coords = Vector2(0, 0)
 
@@ -14,6 +16,12 @@ var thread = Thread.new()
 # create the main level where the player starts
 func init():
 	current_level_coords = initial_level_coords
+	
+func coordinate(coords: Vector2):
+	current_level_coords = coords
+	dispose()
+	scan()
+	check_level_creation()
 	
 ## see how many levels need creating in radius
 func scan():
@@ -54,12 +62,14 @@ func garbage_collect_levels_outside_radius():
 			level.queue_free()
 
 # trigger thread
-func create_scanned_level():
+func check_level_creation():
 	var level_to_create_coords = levels_to_create.pop_front()
 	if level_to_create_coords == null:
+		emit_signal('levels_created')
 		return
-
-	thread.start(self, '_load_level', level_to_create_coords)
+	var level = _load_level(level_to_create_coords)
+	_create_level(level)
+#	thread.start(self, '_load_level', level_to_create_coords)
 
 # thread function
 func _load_level(level_coords: Vector2):
@@ -74,15 +84,15 @@ func _load_level(level_coords: Vector2):
 			720 * level_coords.y
 		)
 		level.position = position_on_map
-	call_deferred('_create_level')
+#	call_deferred('_create_level')
 	return level
 
 # thread load done
-func _create_level():
-	var level = thread.wait_to_finish()
+func _create_level(level):
+#	var level = thread.wait_to_finish()
 	if level != null:
 		levels.add_child(level)
-	create_scanned_level()
+	check_level_creation()
 	
 func format_level_name(string_to_change: String, level_coords: Vector2):
 	return string_to_change.format({
