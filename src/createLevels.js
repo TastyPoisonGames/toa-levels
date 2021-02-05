@@ -3,8 +3,10 @@ const fs = require('fs');
 
 const FILE_TO_COPY = path.resolve('Levels', 'Level.tscn');
 
-const MAX_X_ROOM = 7;
-const MAX_Y_ROOM = 20;
+const MIN_X_ROOM = -7;
+const MAX_X_ROOM = 4;
+const MIN_Y_ROOM = 0;
+const MAX_Y_ROOM = 19;
 const ROOM_SIZE_X = 1280;
 const ROOM_SIZE_Y = 720;
 
@@ -13,8 +15,8 @@ var packed_scenes = [];
 
 let id = 7;
 
-for (let y = -MAX_X_ROOM; y<= MAX_X_ROOM; y++) {
-  for (let x = 0; x <= MAX_Y_ROOM; x++) {
+for (let y = MIN_X_ROOM; y<= MAX_X_ROOM; y++) {
+  for (let x = MIN_Y_ROOM; x <= MAX_Y_ROOM; x++) {
 
     const level = `Level_${x}_${y}`;
     const fileName = `NewLevels/${level}.tscn`
@@ -44,5 +46,5 @@ for (let y = -MAX_X_ROOM; y<= MAX_X_ROOM; y++) {
   }
 }
 
-// resource_paths.map(rp => console.log(rp));
-// packed_scenes.map(ps => console.log(ps));
+resource_paths.map(rp => console.log(rp));
+packed_scenes.map(ps => console.log(ps));

@@ -1,7 +1,7 @@
 [gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://src/Tilesets/ForestTileset.tres" type="TileSet" id=1]
-[ext_resource path="res://Tree.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/Locations/Forest/SmallTree.tscn" type="PackedScene" id=2]
 [ext_resource path="res://src/Player.tscn" type="PackedScene" id=3]
 [ext_resource path="res://src/Bush.tscn" type="PackedScene" id=4]
 [ext_resource path="res://src/TreeTrunk.tscn" type="PackedScene" id=5]
@@ -12,6 +12,9 @@
 [ext_resource path="res://assets/rock_3.png" type="Texture" id=10]
 [ext_resource path="res://assets/c3_2.png" type="Texture" id=11]
 [ext_resource path="res://assets/c2_4.png" type="Texture" id=12]
+
+
+
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 42.1973

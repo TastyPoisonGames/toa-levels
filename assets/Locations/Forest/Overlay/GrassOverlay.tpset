@@ -1,0 +1,228 @@
+{
+	"textures": [
+		{
+			"image": "GrassOverlay.png",
+			"size": {
+				"w": 122,
+				"h": 204
+			},
+			"sprites": [
+				{
+					"filename": "grass-overlay-2.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 77,
+						"h": 63
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-14.png",
+					"region": {
+						"x": 80,
+						"y": 1,
+						"w": 34,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-4.png",
+					"region": {
+						"x": 80,
+						"y": 35,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-8.png",
+					"region": {
+						"x": 114,
+						"y": 35,
+						"w": 7,
+						"h": 7
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-6.png",
+					"region": {
+						"x": 114,
+						"y": 44,
+						"w": 6,
+						"h": 7
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-13.png",
+					"region": {
+						"x": 1,
+						"y": 66,
+						"w": 68,
+						"h": 71
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-5.png",
+					"region": {
+						"x": 1,
+						"y": 139,
+						"w": 64,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-1.png",
+					"region": {
+						"x": 67,
+						"y": 139,
+						"w": 54,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-12.png",
+					"region": {
+						"x": 67,
+						"y": 181,
+						"w": 25,
+						"h": 17
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-7.png",
+					"region": {
+						"x": 94,
+						"y": 181,
+						"w": 8,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-9.png",
+					"region": {
+						"x": 94,
+						"y": 191,
+						"w": 10,
+						"h": 7
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-15.png",
+					"region": {
+						"x": 104,
+						"y": 181,
+						"w": 8,
+						"h": 5
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-11.png",
+					"region": {
+						"x": 71,
+						"y": 69,
+						"w": 27,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-3.png",
+					"region": {
+						"x": 71,
+						"y": 96,
+						"w": 24,
+						"h": 24
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:003f2f5d13e7a3d3fb54344dc32898a8:9667ccac89914f9337fe3b9d98bbd3d5:562127357ad916e28a995d32f8140fb2$"
+	}
+}

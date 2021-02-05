@@ -1,0 +1,17 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/grass-overlay-12.png-12fb9c340b5e9691f73b94d4723a4707.res"
+group_file="res://assets/Locations/Forest/Overlay/GrassOverlay.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-12.png"
+dest_files=[ "res://.import/grass-overlay-12.png-12fb9c340b5e9691f73b94d4723a4707.res" ]
+
+[params]
+
+atlas_file="res://assets/Locations/Forest/Overlay/GrassOverlay.png"
+import_mode=0
