@@ -1,0 +1,17 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/tree-4-3.png-e12f345cfeb03b09ad6375e049b208bf.res"
+group_file="res://assets/Locations/Forest/Props/Props.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/Locations/Forest/Props/tree-4-3.png"
+dest_files=[ "res://.import/tree-4-3.png-e12f345cfeb03b09ad6375e049b208bf.res" ]
+
+[params]
+
+atlas_file="res://assets/Locations/Forest/Props/Props.png"
+import_mode=0

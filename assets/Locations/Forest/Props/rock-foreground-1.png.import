@@ -1,0 +1,17 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/rock-foreground-1.png-789a87dc8d8659ed98eacec1942e1771.res"
+group_file="res://assets/Locations/Forest/Props/Props.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/Locations/Forest/Props/rock-foreground-1.png"
+dest_files=[ "res://.import/rock-foreground-1.png-789a87dc8d8659ed98eacec1942e1771.res" ]
+
+[params]
+
+atlas_file="res://assets/Locations/Forest/Props/Props.png"
+import_mode=0

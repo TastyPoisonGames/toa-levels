@@ -1,0 +1,17 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/leaf-carpet-1.png-0e283ffc4efe52f2415d2d3e31ef57cb.res"
+group_file="res://assets/Locations/Forest/Props/Props.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/Locations/Forest/Props/leaf-carpet-1.png"
+dest_files=[ "res://.import/leaf-carpet-1.png-0e283ffc4efe52f2415d2d3e31ef57cb.res" ]
+
+[params]
+
+atlas_file="res://assets/Locations/Forest/Props/Props.png"
+import_mode=0

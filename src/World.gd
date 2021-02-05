@@ -8,6 +8,8 @@ const LEVEL_TRANSITION_TIME: float = 0.5
 var current_level
 var current_level_coords = Vector2.ZERO
 
+var childr
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var levels = get_node("Levels")
@@ -23,7 +25,23 @@ func _ready():
 	current_level = get_level()
 	tween.connect('tween_completed', self, '_on_level_camera_finished')
 	current_level.enable_move_to_another_level()
-	gen_snapshots()
+	
+	childr = levels.get_children().duplicate()
+	#snap_next_level();
+#	gen_snapshots()
+	
+func snap_next_level():
+	print(childr.size())
+	var level_to_snap = childr.pop_front()
+	print(childr.size())
+	if level_to_snap:
+		current_level_coords = level_to_snap.coords
+		camera.offset = get_level().position
+		gen_snapshots()
+		yield(get_tree().create_timer(1.0), 'timeout')
+		snap_next_level()
+	else:
+		return		
 	
 func gen_snapshots():
 	yield(get_tree(), "idle_frame")
