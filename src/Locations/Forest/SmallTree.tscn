@@ -5,14 +5,10 @@
 [ext_resource path="res://assets/Locations/Forest/Props/tree-1-1.png" type="Texture" id=3]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 42.1973
-height = 24.3683
+radius = 21.3634
+height = 29.8358
 
 [node name="SmallTree" type="StaticBody2D"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-rotation = 1.5708
-shape = SubResource( 1 )
 
 [node name="Shade" type="Sprite" parent="."]
 scale = Vector2( 2, 2 )
@@ -27,3 +23,8 @@ texture = ExtResource( 1 )
 position = Vector2( 0, -112 )
 scale = Vector2( 2, 2 )
 texture = ExtResource( 3 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -0.222725, 0 )
+rotation = 1.5708
+shape = SubResource( 1 )

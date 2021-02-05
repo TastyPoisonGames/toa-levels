@@ -1,0 +1,165 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://src/Levels/Level.gd" type="Script" id=1]
+[ext_resource path="res://src/MoveLevelTrigger.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/Locations/Forest/Tileset/ForestTileset.res" type="TileSet" id=3]
+[ext_resource path="res://guide_snapshots/Level_5_7.png" type="Texture" id=4]
+[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-1.png" type="Texture" id=5]
+[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-5.png" type="Texture" id=6]
+[ext_resource path="res://src/Locations/Forest/SmallTree.tscn" type="PackedScene" id=7]
+[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-11.png" type="Texture" id=8]
+[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-10.png" type="Texture" id=9]
+[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-2.png" type="Texture" id=10]
+[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay-cliffs/grass-overlay-1-cliff.png" type="Texture" id=11]
+[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay-cliffs/grass-overlay-3-cliff.png" type="Texture" id=12]
+[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay-cliffs/grass-overlay-2-cliff.png" type="Texture" id=13]
+[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-3.png" type="Texture" id=14]
+[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-4.png" type="Texture" id=15]
+[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-7.png" type="Texture" id=16]
+[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-6.png" type="Texture" id=17]
+[ext_resource path="res://assets/Locations/Forest/Props/bush.png" type="Texture" id=18]
+[ext_resource path="res://assets/Locations/Forest/Props/rock-1.png" type="Texture" id=19]
+[ext_resource path="res://assets/Locations/Forest/Props/trunk-1.png" type="Texture" id=20]
+
+[node name="Level" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="MoveLevelTrigger" parent="." instance=ExtResource( 2 )]
+
+[node name="Flooring" type="TileMap" parent="."]
+scale = Vector2( 2, 2 )
+tile_set = ExtResource( 3 )
+cell_size = Vector2( 32, 32 )
+format = 1
+tile_data = PoolIntArray( 0, 142, 0, 1, 142, 0, 2, 142, 0, 3, 142, 0, 4, 142, 0, 5, 142, 0, 6, 154, 0, 7, 142, 0, 8, 142, 0, 9, 142, 0, 10, 142, 0, 11, 142, 0, 12, 142, 0, 13, 142, 0, 14, 142, 0, 15, 142, 0, 16, 142, 0, 17, 142, 0, 18, 142, 0, 19, 142, 0, 65536, 142, 0, 65537, 142, 0, 65538, 142, 0, 65539, 142, 0, 65540, 142, 0, 65541, 142, 0, 65542, 142, 0, 65543, 142, 0, 65544, 142, 0, 65545, 142, 0, 65546, 142, 0, 65547, 142, 0, 65548, 154, 0, 65549, 142, 0, 65550, 142, 0, 65551, 142, 0, 65552, 163, 0, 65553, 142, 0, 65554, 142, 0, 65555, 142, 0, 131072, 142, 0, 131073, 142, 0, 131074, 142, 0, 131075, 142, 0, 131076, 154, 0, 131077, 142, 0, 131078, 142, 0, 131079, 142, 0, 131080, 142, 0, 131081, 142, 0, 131082, 142, 0, 131083, 142, 0, 131084, 142, 0, 131085, 142, 0, 131086, 142, 0, 131087, 142, 0, 131088, 142, 0, 131089, 142, 0, 131090, 142, 0, 131091, 142, 0, 196608, 142, 0, 196609, 152, 0, 196610, 142, 0, 196611, 142, 0, 196612, 142, 0, 196613, 142, 0, 196614, 142, 0, 196615, 142, 0, 196616, 152, 0, 196617, 142, 0, 196618, 142, 0, 196619, 142, 0, 196620, 142, 0, 196621, 151, 0, 196622, 142, 0, 196623, 142, 0, 196624, 142, 0, 196625, 142, 0, 196626, 142, 0, 196627, 142, 0, 262144, 142, 0, 262145, 142, 0, 262146, 142, 0, 262147, 142, 0, 262148, 142, 0, 262149, 142, 0, 262150, 142, 0, 262151, 142, 0, 262152, 142, 0, 262153, 142, 0, 262154, 154, 0, 262155, 142, 0, 262156, 142, 0, 262157, 142, 0, 262158, 142, 0, 262159, 142, 0, 262160, 154, 0, 262161, 142, 0, 262162, 142, 0, 262163, 142, 0, 327680, 142, 0, 327681, 142, 0, 327682, 142, 0, 327683, 142, 0, 327684, 158, 0, 327685, 142, 0, 327686, 142, 0, 327687, 142, 0, 327688, 142, 0, 327689, 142, 0, 327690, 142, 0, 327691, 142, 0, 327692, 142, 0, 327693, 142, 0, 327694, 142, 0, 327695, 142, 0, 327696, 142, 0, 327697, 142, 0, 327698, 142, 0, 327699, 142, 0, 393216, 142, 0, 393217, 142, 0, 393218, 142, 0, 393219, 142, 0, 393220, 142, 0, 393221, 142, 0, 393222, 152, 0, 393223, 142, 0, 393224, 142, 0, 393225, 142, 0, 393226, 142, 0, 393227, 142, 0, 393228, 142, 0, 393229, 152, 0, 393230, 142, 0, 393231, 142, 0, 393232, 142, 0, 393233, 142, 0, 393234, 142, 0, 393235, 142, 0, 458752, 142, 0, 458753, 142, 0, 458754, 142, 0, 458755, 142, 0, 458756, 142, 0, 458757, 142, 0, 458758, 142, 0, 458759, 142, 0, 458760, 142, 0, 458761, 142, 0, 458762, 142, 0, 458763, 142, 0, 458764, 142, 0, 458765, 142, 0, 458766, 142, 0, 458767, 142, 0, 458768, 157, 0, 458769, 142, 0, 458770, 142, 0, 458771, 142, 0, 524288, 142, 0, 524289, 154, 0, 524290, 142, 0, 524291, 142, 0, 524292, 142, 0, 524293, 142, 0, 524294, 142, 0, 524295, 142, 0, 524296, 154, 0, 524297, 142, 0, 524298, 142, 0, 524299, 142, 0, 524300, 142, 0, 524301, 142, 0, 524302, 142, 0, 524303, 158, 0, 524304, 142, 0, 524305, 142, 0, 524306, 142, 0, 524307, 142, 0, 589824, 142, 0, 589825, 142, 0, 589826, 142, 0, 589827, 142, 0, 589828, 142, 0, 589829, 142, 0, 589830, 152, 0, 589831, 142, 0, 589832, 142, 0, 589833, 142, 0, 589834, 142, 0, 589835, 142, 0, 589836, 142, 0, 589837, 142, 0, 589838, 142, 0, 589839, 152, 0, 589840, 142, 0, 589841, 142, 0, 589842, 142, 0, 589843, 142, 0, 655360, 142, 0, 655361, 142, 0, 655362, 142, 0, 655363, 142, 0, 655364, 142, 0, 655365, 142, 0, 655366, 142, 0, 655367, 142, 0, 655368, 142, 0, 655369, 142, 0, 655370, 142, 0, 655371, 154, 0, 655372, 142, 0, 655373, 142, 0, 655374, 142, 0, 655375, 142, 0, 655376, 142, 0, 655377, 142, 0, 655378, 142, 0, 655379, 142, 0, 720896, 142, 0, 720897, 142, 0, 720898, 142, 0, 720899, 142, 0, 720900, 142, 0, 720901, 142, 0, 720902, 142, 0, 720903, 142, 0, 720904, 142, 0, 720905, 142, 0, 720906, 142, 0, 720907, 142, 0, 720908, 142, 0, 720909, 142, 0, 720910, 142, 0, 720911, 142, 0, 720912, 142, 0, 720913, 142, 0, 720914, 142, 0, 720915, 142, 0 )
+
+[node name="Overlay" type="Node2D" parent="."]
+scale = Vector2( 2, 2 )
+
+[node name="grass-overlay-1" type="Sprite" parent="Overlay"]
+position = Vector2( 181.751, 133.07 )
+texture = ExtResource( 5 )
+
+[node name="grass-overlay-2" type="Sprite" parent="Overlay"]
+position = Vector2( 424.286, 268.196 )
+texture = ExtResource( 10 )
+
+[node name="grass-overlay-3" type="Sprite" parent="Overlay"]
+position = Vector2( 172.144, 228.981 )
+texture = ExtResource( 14 )
+
+[node name="grass-overlay-4" type="Sprite" parent="Overlay"]
+position = Vector2( 492.006, 179.686 )
+texture = ExtResource( 15 )
+
+[node name="grass-overlay-5" type="Sprite" parent="Overlay"]
+position = Vector2( 108.046, 283.63 )
+texture = ExtResource( 6 )
+
+[node name="grass-overlay-6" type="Sprite" parent="Overlay"]
+position = Vector2( 145.213, 262.841 )
+texture = ExtResource( 17 )
+
+[node name="grass-overlay-7" type="Sprite" parent="Overlay"]
+position = Vector2( 132.295, 218.355 )
+texture = ExtResource( 16 )
+
+[node name="grass-overlay-11" type="Sprite" parent="Overlay"]
+position = Vector2( 926.679, 670.425 )
+texture = ExtResource( 9 )
+
+[node name="grass-overlay-12" type="Sprite" parent="Overlay"]
+position = Vector2( 119.7, 355.445 )
+texture = ExtResource( 8 )
+
+[node name="Walls" type="TileMap" parent="."]
+scale = Vector2( 2, 2 )
+tile_set = ExtResource( 3 )
+cell_size = Vector2( 32, 32 )
+format = 1
+tile_data = PoolIntArray( 0, 143, 0, 1, 143, 0, 2, 143, 0, 3, 143, 0, 4, 143, 0, 5, 143, 0, 6, 143, 0, 7, 143, 0, 8, 143, 0, 9, 143, 0, 10, 143, 0, 11, 143, 0, 12, 143, 0, 13, 143, 0, 14, 143, 0, 15, 143, 0, 16, 143, 0, 17, 143, 0, 18, 143, 0, 19, 143, 0, 65536, 143, 0, 65537, 255, 0, 65538, 267, 0, 65539, 267, 0, 65540, 266, 0, 65541, 266, 0, 65542, 267, 0, 65543, 263, 0, 65544, 266, 0, 65545, 266, 0, 65546, 262, 0, 65547, 267, 0, 65548, 266, 0, 65549, 267, 0, 65550, 266, 0, 65551, 262, 0, 65552, 263, 0, 65553, 267, 0, 65554, 268, 0, 65555, 143, 0, 131072, 143, 0, 131073, 269, 0, 131074, 276, 0, 131075, 276, 0, 131076, 325, 0, 131077, 276, 0, 131078, 276, 0, 131079, 272, 0, 131080, 270, 0, 131081, 276, 0, 131082, 325, 0, 131083, 276, 0, 131084, 276, 0, 131085, 325, 0, 131086, 322, 0, 131087, 276, 0, 131088, 276, 0, 131089, 273, 0, 131090, 279, 0, 131091, 143, 0, 196608, 143, 0, 196609, 280, 0, 196626, 281, 0, 196627, 143, 0, 262144, 143, 0, 262145, 280, 0, 262162, 289, 0, 262163, 143, 0, 327680, 143, 0, 327681, 280, 0, 327698, 281, 0, 327699, 143, 0, 393216, 143, 0, 393217, 280, 0, 393234, 289, 0, 393235, 143, 0, 458752, 143, 0, 458753, 280, 0, 458770, 289, 0, 458771, 143, 0, 524288, 143, 0, 524289, 280, 0, 524306, 281, 0, 524307, 143, 0, 589824, 143, 0, 589825, 280, 0, 589842, 287, 0, 589843, 143, 0, 655360, 143, 0, 655361, 290, 0, 655362, 293, 0, 655363, 291, 0, 655364, 291, 0, 655365, 298, 0, 655366, 291, 0, 655367, 291, 0, 655368, 298, 0, 655369, 295, 0, 655370, 291, 0, 655371, 291, 0, 655372, 295, 0, 655373, 298, 0, 655374, 304, 0, 655375, 291, 0, 655376, 301, 0, 655377, 304, 0, 655378, 302, 0, 655379, 143, 0, 720896, 143, 0, 720897, 143, 0, 720898, 143, 0, 720899, 143, 0, 720900, 143, 0, 720901, 143, 0, 720902, 143, 0, 720903, 143, 0, 720904, 143, 0, 720905, 143, 0, 720906, 143, 0, 720907, 143, 0, 720908, 143, 0, 720909, 143, 0, 720910, 143, 0, 720911, 143, 0, 720912, 143, 0, 720913, 143, 0, 720914, 143, 0, 720915, 143, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="WallOverlay" type="Node2D" parent="."]
+scale = Vector2( 2, 2 )
+
+[node name="grass-overlay-1-cliff" type="Sprite" parent="WallOverlay"]
+position = Vector2( 314.565, 16.8951 )
+texture = ExtResource( 11 )
+
+[node name="grass-overlay-2-cliff" type="Sprite" parent="WallOverlay"]
+position = Vector2( 521.507, 18.785 )
+texture = ExtResource( 13 )
+
+[node name="grass-overlay-3-cliff" type="Sprite" parent="WallOverlay"]
+position = Vector2( 96.2835, 17.21 )
+texture = ExtResource( 12 )
+
+[node name="grass-overlay-1-cliff2" type="Sprite" parent="WallOverlay"]
+position = Vector2( 574.738, 362.428 )
+texture = ExtResource( 11 )
+
+[node name="grass-overlay-2-cliff2" type="Sprite" parent="WallOverlay"]
+position = Vector2( 292.516, 365.263 )
+texture = ExtResource( 13 )
+
+[node name="grass-overlay-3-cliff2" type="Sprite" parent="WallOverlay"]
+position = Vector2( 25.728, 363.688 )
+texture = ExtResource( 12 )
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="SmallTree" parent="YSort" instance=ExtResource( 7 )]
+position = Vector2( 222.725, 253.461 )
+
+[node name="SmallTree2" parent="YSort" instance=ExtResource( 7 )]
+position = Vector2( 1068.63, 257.47 )
+
+[node name="Bush" type="Sprite" parent="YSort"]
+position = Vector2( 540.506, 308.681 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 18 )
+
+[node name="Bush2" type="Sprite" parent="YSort"]
+position = Vector2( 590.842, 312.244 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 18 )
+
+[node name="Bush3" type="Sprite" parent="YSort"]
+position = Vector2( 561.442, 331.398 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 18 )
+
+[node name="Rock1" type="Sprite" parent="YSort"]
+position = Vector2( 385.759, 369.723 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 19 )
+
+[node name="Rock2" type="Sprite" parent="YSort"]
+position = Vector2( 760.828, 234.752 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 19 )
+
+[node name="Rock3" type="Sprite" parent="YSort"]
+position = Vector2( 691.783, 578.639 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 19 )
+
+[node name="Sprite" type="Sprite" parent="YSort"]
+position = Vector2( 1119.41, 567.057 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 20 )
+
+[node name="LevelDesignGuide" type="TextureRect" parent="."]
+visible = false
+self_modulate = Color( 1, 1, 1, 0.392157 )
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 1280, 720 )
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
