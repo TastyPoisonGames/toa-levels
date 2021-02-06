@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_tileset"
+type="Resource"
+path="res://.import/GrassOverlay.tpset-ea2707849259a6a6136ace74dd1fb227.res"
+
+[deps]
+
+files=[ "GrassOverlay.png", "res://assets/Locations/Moorlands/Overlay/GrassOverlay.res" ]
+
+source_file="res://assets/Locations/Moorlands/Overlay/GrassOverlay.tpset"
+dest_files=[ "res://.import/GrassOverlay.tpset-ea2707849259a6a6136ace74dd1fb227.res", "GrassOverlay.png", "res://assets/Locations/Moorlands/Overlay/GrassOverlay.res" ]
+
+[params]
+

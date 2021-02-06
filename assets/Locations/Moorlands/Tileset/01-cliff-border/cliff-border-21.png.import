@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cliff-border-21.png-298aa5e5810348f9757e5ed619a82743.stex"
+path="res://.import/cliff-border-21.png-4e3935f3e2b6281d95201fcc8571ce03.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Locations/Forest/Tileset/01-cliff-border/cliff-border-21.png"
-dest_files=[ "res://.import/cliff-border-21.png-298aa5e5810348f9757e5ed619a82743.stex" ]
+source_file="res://assets/Locations/Moorlands/Tileset/01-cliff-border/cliff-border-21.png"
+dest_files=[ "res://.import/cliff-border-21.png-4e3935f3e2b6281d95201fcc8571ce03.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/path-50.png-80555e1df1ac16ecc86ed272333e1abe.stex"
+path="res://.import/path-50.png-a64dfba1adc46cc6b56e0de484f8ab41.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Locations/Forest/Tileset/03-path/path-50.png"
-dest_files=[ "res://.import/path-50.png-80555e1df1ac16ecc86ed272333e1abe.stex" ]
+source_file="res://assets/Locations/Moorlands/Tileset/03-path/path-50.png"
+dest_files=[ "res://.import/path-50.png-a64dfba1adc46cc6b56e0de484f8ab41.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/hole-14.png-b2913d62429c6206c3798e3f324da0aa.stex"
+path="res://.import/hole-14.png-ee6ac550796c9f6161a65ca96bd45d2f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Locations/Forest/Tileset/04-hole/hole-14.png"
-dest_files=[ "res://.import/hole-14.png-b2913d62429c6206c3798e3f324da0aa.stex" ]
+source_file="res://assets/Locations/Moorlands/Tileset/04-hole/hole-14.png"
+dest_files=[ "res://.import/hole-14.png-ee6ac550796c9f6161a65ca96bd45d2f.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cliff-inland-13.png-a7370aacad756b9a5bfcbe7f63dda51f.stex"
+path="res://.import/cliff-inland-13.png-1b26bd4ef98ed74ef2ad36ba62c19704.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Locations/Forest/Tileset/05-cliff-inland/cliff-inland-13.png"
-dest_files=[ "res://.import/cliff-inland-13.png-a7370aacad756b9a5bfcbe7f63dda51f.stex" ]
+source_file="res://assets/Locations/Moorlands/Tileset/05-cliff-inland/cliff-inland-13.png"
+dest_files=[ "res://.import/cliff-inland-13.png-1b26bd4ef98ed74ef2ad36ba62c19704.stex" ]
 
 [params]
 

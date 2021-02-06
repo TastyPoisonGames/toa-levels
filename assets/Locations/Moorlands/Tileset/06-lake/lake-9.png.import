@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/lake-9.png-6b4de30a80b222a39e68b61422273c39.stex"
+path="res://.import/lake-9.png-3c13e6dfd183d7ebca5de51b20a89cf2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Locations/Forest/Tileset/06-lake/lake-9.png"
-dest_files=[ "res://.import/lake-9.png-6b4de30a80b222a39e68b61422273c39.stex" ]
+source_file="res://assets/Locations/Moorlands/Tileset/06-lake/lake-9.png"
+dest_files=[ "res://.import/lake-9.png-3c13e6dfd183d7ebca5de51b20a89cf2.stex" ]
 
 [params]
 

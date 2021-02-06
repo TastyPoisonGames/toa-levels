@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/grass-14.png-2066ca57c93d04ecb7094485bca139cf.stex"
+path="res://.import/grass-14.png-449a23c4b841bb725af59916b749be1c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Locations/Forest/Tileset/00-grass/grass-14.png"
-dest_files=[ "res://.import/grass-14.png-2066ca57c93d04ecb7094485bca139cf.stex" ]
+source_file="res://assets/Locations/Moorlands/Tileset/00-grass/grass-14.png"
+dest_files=[ "res://.import/grass-14.png-449a23c4b841bb725af59916b749be1c.stex" ]
 
 [params]
 

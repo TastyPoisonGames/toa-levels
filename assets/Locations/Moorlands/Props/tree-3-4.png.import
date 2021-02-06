@@ -2,14 +2,14 @@
 
 importer="texture_atlas"
 type="Texture"
-path="res://.import/tree-3-4.png-ed4ab7544b98869e9dd2e0e7195e6302.res"
+path="res://.import/tree-3-4.png-39bd8cb235b3453df6cfdbe3bff718ac.res"
 group_file="res://assets/Locations/Forest/Props/Props.png"
 valid=true
 [deps]
 
 
-source_file="res://assets/Locations/Forest/Props/tree-3-4.png"
-dest_files=[ "res://.import/tree-3-4.png-ed4ab7544b98869e9dd2e0e7195e6302.res" ]
+source_file="res://assets/Locations/Moorlands/Props/tree-3-4.png"
+dest_files=[ "res://.import/tree-3-4.png-39bd8cb235b3453df6cfdbe3bff718ac.res" ]
 
 [params]
 

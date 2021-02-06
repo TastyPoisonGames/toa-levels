@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dirt-52.png-9f08ea4887b07f569bb172ad946a66d6.stex"
+path="res://.import/dirt-52.png-496f7652a4e005a1b4290314308d2945.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Locations/Forest/Tileset/02-dirt/dirt-52.png"
-dest_files=[ "res://.import/dirt-52.png-9f08ea4887b07f569bb172ad946a66d6.stex" ]
+source_file="res://assets/Locations/Moorlands/Tileset/02-dirt/dirt-52.png"
+dest_files=[ "res://.import/dirt-52.png-496f7652a4e005a1b4290314308d2945.stex" ]
 
 [params]
 
