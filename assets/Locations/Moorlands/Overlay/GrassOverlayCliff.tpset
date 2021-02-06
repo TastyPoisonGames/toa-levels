@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "GrassOverlayCliff.png",
+			"size": {
+				"w": 181,
+				"h": 119
+			},
+			"sprites": [
+				{
+					"filename": "grass-overlay-6-cliff.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 80,
+						"h": 63
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-8-cliff.png",
+					"region": {
+						"x": 83,
+						"y": 1,
+						"w": 68,
+						"h": 71
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-4-cliff.png",
+					"region": {
+						"x": 1,
+						"y": 66,
+						"w": 62,
+						"h": 52
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-10-cliff.png",
+					"region": {
+						"x": 153,
+						"y": 1,
+						"w": 27,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-5-cliff.png",
+					"region": {
+						"x": 65,
+						"y": 74,
+						"w": 54,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-7-cliff.png",
+					"region": {
+						"x": 121,
+						"y": 74,
+						"w": 54,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-9-cliff.png",
+					"region": {
+						"x": 153,
+						"y": 28,
+						"w": 25,
+						"h": 17
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-2-cliff.png",
+					"region": {
+						"x": 153,
+						"y": 47,
+						"w": 18,
+						"h": 11
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-1-cliff.png",
+					"region": {
+						"x": 65,
+						"y": 66,
+						"w": 9,
+						"h": 6
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "grass-overlay-3-cliff.png",
+					"region": {
+						"x": 153,
+						"y": 60,
+						"w": 14,
+						"h": 7
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:b6905f6f76d46397b894993a38e35cc2:1bc8c74c1e32a8a1749c5b9e77126baa:ba1b51ef1cf42ba596d7830455ff8fb9$"
+	}
+}
