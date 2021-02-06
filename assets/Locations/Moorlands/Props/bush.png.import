@@ -1,0 +1,17 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/bush.png-4cf64f113814eab681125658751ebb0c.res"
+group_file="res://assets/Locations/Forest/Props/Props.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/Locations/Moorlands/Props/bush.png"
+dest_files=[ "res://.import/bush.png-4cf64f113814eab681125658751ebb0c.res" ]
+
+[params]
+
+atlas_file="res://assets/Locations/Forest/Props/Props.png"
+import_mode=0

@@ -677,8 +677,8 @@ position = Vector2( 24320, -720 )
 
 [node name="Level_0_0" parent="Levels" instance=ExtResource( 147 )]
 
-[node name="Player" parent="Levels/Level_0_0/YSort" index="9" instance=ExtResource( 1 )]
-position = Vector2( 653.689, 324.196 )
+[node name="Player" parent="Levels/Level_0_0/YSort" index="0" instance=ExtResource( 1 )]
+position = Vector2( 653.689, 352.801 )
 
 [node name="Level_1_0" parent="Levels" instance=ExtResource( 148 )]
 position = Vector2( 1280, 0 )
@@ -741,7 +741,7 @@ position = Vector2( 24320, 0 )
 position = Vector2( 0, 720 )
 
 [node name="Level_1_1" parent="Levels" instance=ExtResource( 168 )]
-position = Vector2( 1280, 720 )
+position = Vector2( 1280, 720.53 )
 
 [node name="Level_2_1" parent="Levels" instance=ExtResource( 169 )]
 position = Vector2( 2560, 720 )

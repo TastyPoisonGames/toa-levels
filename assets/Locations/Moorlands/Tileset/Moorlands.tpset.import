@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_tileset"
+type="Resource"
+path="res://.import/Moorlands.tpset-77369c5cd9a6399f9802706f0d43a304.res"
+
+[deps]
+
+files=[ "Moorlands.png", "res://assets/Locations/Moorlands/Tileset/Moorlands.res" ]
+
+source_file="res://assets/Locations/Moorlands/Tileset/Moorlands.tpset"
+dest_files=[ "res://.import/Moorlands.tpset-77369c5cd9a6399f9802706f0d43a304.res", "Moorlands.png", "res://assets/Locations/Moorlands/Tileset/Moorlands.res" ]
+
+[params]
+

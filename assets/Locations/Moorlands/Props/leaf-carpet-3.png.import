@@ -1,0 +1,17 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/leaf-carpet-3.png-f774481dc452ae568301a7a101544803.res"
+group_file="res://assets/Locations/Forest/Props/Props.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/Locations/Moorlands/Props/leaf-carpet-3.png"
+dest_files=[ "res://.import/leaf-carpet-3.png-f774481dc452ae568301a7a101544803.res" ]
+
+[params]
+
+atlas_file="res://assets/Locations/Forest/Props/Props.png"
+import_mode=0

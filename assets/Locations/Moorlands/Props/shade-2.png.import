@@ -1,0 +1,17 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/shade-2.png-8a34b1ce08e26c2004251ba35a2da1a9.res"
+group_file="res://assets/Locations/Forest/Props/Props.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/Locations/Moorlands/Props/shade-2.png"
+dest_files=[ "res://.import/shade-2.png-8a34b1ce08e26c2004251ba35a2da1a9.res" ]
+
+[params]
+
+atlas_file="res://assets/Locations/Forest/Props/Props.png"
+import_mode=0

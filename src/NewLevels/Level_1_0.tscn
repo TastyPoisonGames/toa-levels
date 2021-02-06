@@ -1,29 +1,23 @@
-[gd_scene load_steps=25 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://src/Levels/Level.gd" type="Script" id=1]
 [ext_resource path="res://src/MoveLevelTrigger.tscn" type="PackedScene" id=2]
-[ext_resource path="res://assets/Locations/Forest/Tileset/ForestTileset.res" type="TileSet" id=3]
+[ext_resource path="res://assets/Locations/Moorlands/Tileset/Moorlands.res" type="TileSet" id=3]
 [ext_resource path="res://guide_snapshots/Level_1_0.png" type="Texture" id=4]
-[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-1.png" type="Texture" id=5]
-[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-5.png" type="Texture" id=6]
-[ext_resource path="res://src/Locations/Forest/SmallTree.tscn" type="PackedScene" id=7]
-[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-11.png" type="Texture" id=8]
-[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-10.png" type="Texture" id=9]
-[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-2.png" type="Texture" id=10]
-[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay-cliffs/grass-overlay-1-cliff.png" type="Texture" id=11]
-[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay-cliffs/grass-overlay-3-cliff.png" type="Texture" id=12]
-[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay-cliffs/grass-overlay-2-cliff.png" type="Texture" id=13]
-[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-3.png" type="Texture" id=14]
-[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-4.png" type="Texture" id=15]
-[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-7.png" type="Texture" id=16]
-[ext_resource path="res://assets/Locations/Forest/Overlay/grass-overlay/grass-overlay-6.png" type="Texture" id=17]
-[ext_resource path="res://src/Locations/Forest/Bush.tscn" type="PackedScene" id=18]
-[ext_resource path="res://src/Locations/Forest/Rock-4.tscn" type="PackedScene" id=19]
-[ext_resource path="res://src/Locations/Forest/TreeTrunk.tscn" type="PackedScene" id=20]
-[ext_resource path="res://src/Locations/Forest/Rock-5.tscn" type="PackedScene" id=21]
-[ext_resource path="res://src/Locations/Forest/Rock-2.tscn" type="PackedScene" id=22]
-[ext_resource path="res://src/Locations/Forest/Rock-1.tscn" type="PackedScene" id=23]
-[ext_resource path="res://src/Locations/Forest/Rock-3.tscn" type="PackedScene" id=24]
+[ext_resource path="res://assets/Locations/Moorlands/Overlay/grass-overlay/grass-overlay-3.png" type="Texture" id=5]
+[ext_resource path="res://assets/Locations/Moorlands/Overlay/grass-overlay/grass-overlay-4.png" type="Texture" id=6]
+[ext_resource path="res://assets/Locations/Moorlands/Overlay/grass-overlay/grass-overlay-1.png" type="Texture" id=7]
+[ext_resource path="res://assets/Locations/Moorlands/Overlay/grass-overlay/grass-overlay-2.png" type="Texture" id=8]
+[ext_resource path="res://assets/Locations/Moorlands/Overlay/grass-overlay/grass-overlay-5.png" type="Texture" id=9]
+[ext_resource path="res://assets/Locations/Moorlands/Overlay/grass-overlay/grass-overlay-6.png" type="Texture" id=10]
+[ext_resource path="res://src/Locations/Moorlands/Rock-4.tscn" type="PackedScene" id=11]
+[ext_resource path="res://src/Locations/Moorlands/Rock-2.tscn" type="PackedScene" id=12]
+[ext_resource path="res://src/Locations/Moorlands/Rock-1.tscn" type="PackedScene" id=13]
+[ext_resource path="res://src/Locations/Moorlands/Rock-5.tscn" type="PackedScene" id=14]
+[ext_resource path="res://src/Locations/Moorlands/Rock-3.tscn" type="PackedScene" id=15]
+[ext_resource path="res://src/Locations/Moorlands/Rock-8.tscn" type="PackedScene" id=16]
+[ext_resource path="res://src/Locations/Moorlands/Rock-6.tscn" type="PackedScene" id=17]
+[ext_resource path="res://src/Locations/Moorlands/Rock-7.tscn" type="PackedScene" id=18]
 
 [node name="Level" type="Node2D"]
 script = ExtResource( 1 )
@@ -41,112 +35,65 @@ tile_data = PoolIntArray( 0, 142, 0, 1, 142, 0, 2, 142, 0, 3, 142, 0, 4, 142, 0,
 scale = Vector2( 2, 2 )
 
 [node name="grass-overlay-1" type="Sprite" parent="Overlay"]
-position = Vector2( 181.751, 133.07 )
-texture = ExtResource( 5 )
+position = Vector2( 592, 44 )
+texture = ExtResource( 7 )
 
 [node name="grass-overlay-2" type="Sprite" parent="Overlay"]
-position = Vector2( 424.286, 268.196 )
-texture = ExtResource( 10 )
-
-[node name="grass-overlay-3" type="Sprite" parent="Overlay"]
-position = Vector2( 172.144, 228.981 )
-texture = ExtResource( 14 )
-
-[node name="grass-overlay-4" type="Sprite" parent="Overlay"]
-position = Vector2( 492.006, 179.686 )
-texture = ExtResource( 15 )
-
-[node name="grass-overlay-5" type="Sprite" parent="Overlay"]
-position = Vector2( 108.046, 283.63 )
-texture = ExtResource( 6 )
-
-[node name="grass-overlay-6" type="Sprite" parent="Overlay"]
-position = Vector2( 145.213, 262.841 )
-texture = ExtResource( 17 )
-
-[node name="grass-overlay-7" type="Sprite" parent="Overlay"]
-position = Vector2( 132.295, 218.355 )
-texture = ExtResource( 16 )
-
-[node name="grass-overlay-11" type="Sprite" parent="Overlay"]
-position = Vector2( 359.715, 199.53 )
-texture = ExtResource( 9 )
-
-[node name="grass-overlay-12" type="Sprite" parent="Overlay"]
-position = Vector2( 119.7, 355.445 )
+position = Vector2( 72, 320 )
 texture = ExtResource( 8 )
 
+[node name="grass-overlay-3" type="Sprite" parent="Overlay"]
+position = Vector2( 244, 64 )
+texture = ExtResource( 5 )
+
+[node name="grass-overlay-4" type="Sprite" parent="Overlay"]
+position = Vector2( 104, 124 )
+texture = ExtResource( 6 )
+
+[node name="grass-overlay-5" type="Sprite" parent="Overlay"]
+position = Vector2( 432, 316 )
+texture = ExtResource( 9 )
+
+[node name="grass-overlay-6" type="Sprite" parent="Overlay"]
+position = Vector2( 256, 212 )
+texture = ExtResource( 10 )
+
 [node name="Walls" type="TileMap" parent="."]
+visible = false
 scale = Vector2( 2, 2 )
 tile_set = ExtResource( 3 )
 cell_size = Vector2( 32, 32 )
 format = 1
 tile_data = PoolIntArray( 0, 143, 0, 1, 143, 0, 2, 143, 0, 3, 143, 0, 4, 143, 0, 5, 143, 0, 6, 143, 0, 7, 143, 0, 8, 313, 0, 11, 281, 0, 12, 143, 0, 13, 143, 0, 14, 143, 0, 15, 143, 0, 16, 143, 0, 17, 143, 0, 18, 143, 0, 19, 143, 0, 65536, 143, 0, 65537, 255, 0, 65538, 267, 0, 65539, 267, 0, 65540, 266, 0, 65541, 266, 0, 65542, 267, 0, 65543, 263, 0, 65544, 329, 0, 65547, 327, 0, 65548, 317, 0, 65549, 267, 0, 65550, 266, 0, 65551, 262, 0, 65552, 263, 0, 65553, 267, 0, 65554, 268, 0, 65555, 143, 0, 131072, 143, 0, 131073, 269, 0, 131074, 276, 0, 131075, 276, 0, 131076, 325, 0, 131077, 276, 0, 131078, 276, 0, 131079, 272, 0, 131080, 334, 0, 131083, 321, 0, 131084, 322, 0, 131085, 325, 0, 131086, 322, 0, 131087, 276, 0, 131088, 276, 0, 131089, 273, 0, 131090, 279, 0, 131091, 143, 0, 196608, 143, 0, 196609, 280, 0, 196626, 281, 0, 196627, 143, 0, 262144, 143, 0, 262145, 280, 0, 262162, 289, 0, 262163, 143, 0, 327680, 261, 0, 327681, 329, 0, 327698, 327, 0, 327699, 328, 0, 393216, 331, 0, 393217, 326, 0, 393234, 321, 0, 393235, 278, 0, 458752, 300, 0, 458753, 305, 0, 458770, 306, 0, 458771, 300, 0, 524288, 143, 0, 524289, 280, 0, 524306, 281, 0, 524307, 143, 0, 589824, 143, 0, 589825, 280, 0, 589842, 287, 0, 589843, 143, 0, 655360, 143, 0, 655361, 290, 0, 655362, 293, 0, 655363, 291, 0, 655364, 291, 0, 655365, 298, 0, 655366, 291, 0, 655367, 294, 0, 655368, 305, 0, 655371, 303, 0, 655372, 300, 0, 655373, 307, 0, 655374, 304, 0, 655375, 291, 0, 655376, 301, 0, 655377, 304, 0, 655378, 302, 0, 655379, 143, 0, 720896, 143, 0, 720897, 143, 0, 720898, 143, 0, 720899, 143, 0, 720900, 143, 0, 720901, 143, 0, 720902, 143, 0, 720903, 143, 0, 720904, 313, 0, 720907, 312, 0, 720908, 143, 0, 720909, 143, 0, 720910, 143, 0, 720911, 143, 0, 720912, 143, 0, 720913, 143, 0, 720914, 143, 0, 720915, 143, 0 )
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="WallOverlay" type="Node2D" parent="."]
 scale = Vector2( 2, 2 )
 
-[node name="grass-overlay-1-cliff" type="Sprite" parent="WallOverlay"]
-position = Vector2( 182.88, 13.71 )
-texture = ExtResource( 11 )
-
-[node name="grass-overlay-2-cliff" type="Sprite" parent="WallOverlay"]
-position = Vector2( 534.315, 16.71 )
-texture = ExtResource( 13 )
-
-[node name="grass-overlay-3-cliff" type="Sprite" parent="WallOverlay"]
-position = Vector2( 96.2835, 17.21 )
-texture = ExtResource( 12 )
-
-[node name="grass-overlay-1-cliff2" type="Sprite" parent="WallOverlay"]
-position = Vector2( 574.738, 362.428 )
-texture = ExtResource( 11 )
-
-[node name="grass-overlay-2-cliff2" type="Sprite" parent="WallOverlay"]
-position = Vector2( 195.187, 365.428 )
-texture = ExtResource( 13 )
-
-[node name="grass-overlay-3-cliff2" type="Sprite" parent="WallOverlay"]
-position = Vector2( 25.728, 363.688 )
-texture = ExtResource( 12 )
-
 [node name="YSort" type="YSort" parent="."]
 
-[node name="SmallTree" parent="YSort" instance=ExtResource( 7 )]
-position = Vector2( 222.725, 253.461 )
+[node name="Node2D" parent="YSort" instance=ExtResource( 13 )]
+position = Vector2( 1000, 96 )
 
-[node name="SmallTree2" parent="YSort" instance=ExtResource( 7 )]
-position = Vector2( 1068.63, 257.47 )
+[node name="Node2D2" parent="YSort" instance=ExtResource( 12 )]
+position = Vector2( 1176, 104 )
 
-[node name="Bush4" parent="YSort" instance=ExtResource( 18 )]
-position = Vector2( 568, 400 )
+[node name="Node2D3" parent="YSort" instance=ExtResource( 15 )]
+position = Vector2( 792, 112 )
 
-[node name="Bush5" parent="YSort" instance=ExtResource( 18 )]
-position = Vector2( 592, 440 )
+[node name="Node2D4" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( 648, 112 )
 
-[node name="Bush6" parent="YSort" instance=ExtResource( 18 )]
-position = Vector2( 624, 400 )
+[node name="Node2D5" parent="YSort" instance=ExtResource( 14 )]
+position = Vector2( 80, 88 )
 
-[node name="RigidBody2D" parent="YSort" instance=ExtResource( 20 )]
-position = Vector2( 1112, 592 )
+[node name="Node2D6" parent="YSort" instance=ExtResource( 17 )]
+position = Vector2( 240, 120 )
 
-[node name="Node2D" parent="YSort" instance=ExtResource( 23 )]
-position = Vector2( 352, 608 )
+[node name="Node2D7" parent="YSort" instance=ExtResource( 18 )]
+position = Vector2( 528, 72 )
 
-[node name="Node2D2" parent="YSort" instance=ExtResource( 22 )]
-position = Vector2( 984, 624 )
-
-[node name="Node2D3" parent="YSort" instance=ExtResource( 24 )]
-position = Vector2( 1088, 352 )
-
-[node name="Node2D4" parent="YSort" instance=ExtResource( 19 )]
-position = Vector2( 912, 216 )
-
-[node name="Node2D5" parent="YSort" instance=ExtResource( 21 )]
-position = Vector2( 512, 296 )
+[node name="Node2D8" parent="YSort" instance=ExtResource( 16 )]
+position = Vector2( 400, 136 )
 
 [node name="LevelDesignGuide" type="TextureRect" parent="."]
 visible = false

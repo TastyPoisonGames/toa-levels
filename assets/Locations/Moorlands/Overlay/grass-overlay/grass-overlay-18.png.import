@@ -1,0 +1,17 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/grass-overlay-18.png-7a78e58507f35440ace144046680b3b9.res"
+group_file="res://assets/Locations/Moorlands/Overlay/GrassOverlay.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/Locations/Moorlands/Overlay/grass-overlay/grass-overlay-18.png"
+dest_files=[ "res://.import/grass-overlay-18.png-7a78e58507f35440ace144046680b3b9.res" ]
+
+[params]
+
+atlas_file="res://assets/Locations/Moorlands/Overlay/GrassOverlay.png"
+import_mode=0

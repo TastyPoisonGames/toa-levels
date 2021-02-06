@@ -1,0 +1,17 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/rock-foreground-10.png-f4833aa66515b751b72f2470a36e95a3.res"
+group_file="res://assets/Locations/Forest/Props/Props.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/Locations/Moorlands/Props/rock-foreground-10.png"
+dest_files=[ "res://.import/rock-foreground-10.png-f4833aa66515b751b72f2470a36e95a3.res" ]
+
+[params]
+
+atlas_file="res://assets/Locations/Forest/Props/Props.png"
+import_mode=0

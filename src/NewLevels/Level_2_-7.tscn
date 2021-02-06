@@ -130,22 +130,22 @@ position = Vector2( 592, 440 )
 [node name="Bush6" parent="YSort" instance=ExtResource( 18 )]
 position = Vector2( 624, 400 )
 
-[node name="RigidBody2D" parent="YSort" instance=ExtResource( 20 )]
+[node name="SmallLog" parent="YSort" instance=ExtResource( 20 )]
 position = Vector2( 1112, 592 )
 
-[node name="Node2D" parent="YSort" instance=ExtResource( 23 )]
+[node name="Rock-1" parent="YSort" instance=ExtResource( 23 )]
 position = Vector2( 352, 608 )
 
-[node name="Node2D2" parent="YSort" instance=ExtResource( 22 )]
+[node name="Rock-2" parent="YSort" instance=ExtResource( 22 )]
 position = Vector2( 984, 624 )
 
-[node name="Node2D3" parent="YSort" instance=ExtResource( 24 )]
+[node name="Rock-3" parent="YSort" instance=ExtResource( 24 )]
 position = Vector2( 1088, 352 )
 
-[node name="Node2D4" parent="YSort" instance=ExtResource( 19 )]
+[node name="Rock-4" parent="YSort" instance=ExtResource( 19 )]
 position = Vector2( 912, 216 )
 
-[node name="Node2D5" parent="YSort" instance=ExtResource( 21 )]
+[node name="Rock-5" parent="YSort" instance=ExtResource( 21 )]
 position = Vector2( 512, 296 )
 
 [node name="LevelDesignGuide" type="TextureRect" parent="."]

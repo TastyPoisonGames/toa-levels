@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_tileset"
+type="Resource"
+path="res://.import/GrassOverlayCliff.tpset-e751f71c7b11c23968e0c37ff78a3ed3.res"
+
+[deps]
+
+files=[ "GrassOverlayCliff.png", "res://assets/Locations/Forest/Overlay/GrassOverlayCliff.res" ]
+
+source_file="res://assets/Locations/Forest/Overlay/GrassOverlayCliff.tpset"
+dest_files=[ "res://.import/GrassOverlayCliff.tpset-e751f71c7b11c23968e0c37ff78a3ed3.res", "GrassOverlayCliff.png", "res://assets/Locations/Forest/Overlay/GrassOverlayCliff.res" ]
+
+[params]
+

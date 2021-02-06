@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_tileset"
+type="Resource"
+path="res://.import/ForestTileset.tpset-8302b8a25851a5d42ca39203d2b8989a.res"
+
+[deps]
+
+files=[ "ForestTileset.png", "res://assets/Locations/Forest/Tileset/ForestTileset.res" ]
+
+source_file="res://assets/Locations/Forest/Tileset/ForestTileset.tpset"
+dest_files=[ "res://.import/ForestTileset.tpset-8302b8a25851a5d42ca39203d2b8989a.res", "ForestTileset.png", "res://assets/Locations/Forest/Tileset/ForestTileset.res" ]
+
+[params]
+
