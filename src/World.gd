@@ -91,7 +91,7 @@ func _on_level_camera_finished(_object: Object, _key: NodePath):
 	var next_level = get_level()
 	current_level = next_level
 	current_level.enable_move_to_another_level()
-	gen_snapshots()
+	#gen_snapshots()
 
 func get_level_name():
 	return 'Level_' + str(current_level_coords.x) + '_' + str(current_level_coords.y)
